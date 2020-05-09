@@ -3,8 +3,15 @@
   "version": "0.1.2",
   "description": "Promise-based Node.js EPUB generator",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "lint": "eslint ."
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielpascua/epubbd.git"
   },
   "keywords": [
     "epub",
@@ -12,12 +19,16 @@
   ],
   "author": "Gabriel Pascua",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrielpascua/epubbd/issues"
+  },
+  "homepage": "https://github.com/gabrielpascua/epubbd#readme",
   "dependencies": {
     "adm-zip": "^0.4.14",
     "normalize.css": "^8.0.1",
     "xml2js": "^0.4.23"
   },
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^7.0.0"
   }
 }
