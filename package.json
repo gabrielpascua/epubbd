@@ -1,5 +1,5 @@
 {
-  "name": "epubbed",
+  "name": "epubbd",
   "version": "0.1.1",
   "description": "Promise-based Node.js EPUB generator",
   "main": "index.js",
