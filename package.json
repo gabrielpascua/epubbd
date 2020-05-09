@@ -11,7 +11,7 @@
     "generator"
   ],
   "author": "Gabriel Pascua",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "adm-zip": "^0.4.14",
     "normalize.css": "^8.0.1",
