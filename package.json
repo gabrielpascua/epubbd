@@ -1,6 +1,6 @@
 {
   "name": "epubbd",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Promise-based Node.js EPUB generator",
   "main": "index.js",
   "directories": {
