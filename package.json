@@ -27,7 +27,6 @@
   "homepage": "https://github.com/gabrielpascua/epubbd#readme",
   "dependencies": {
     "adm-zip": "^0.4.14",
-    "normalize.css": "^8.0.1",
     "sanitize-html": "^1.23.0",
     "xmlbuilder": "^15.1.1"
   },
