@@ -25,13 +25,15 @@ const options = {
 
 ## Epubbd Options
 | Property | Example | Description |
-|-------------------|----------------------------------------------|--------------------------------------------------|
+|-------------------|----------------------------------|--------------------------------------------------|
 | title | 'My Book' | The title of your .epub |
+| author | 'Jane Smith' | The author of your .epub |
+| publisher | 'Squirrel Papers' | The publisher of your .epub |
 | styleUrlOrPath | './main.css' | A url or the local path of your .css file |
 | coverUrlOrPath | './my-book-image.jpg' | A url or the local path of your image cover file |
 | contents | [{ title, html }] | An array of your book's content |
 | contents[0].title | 'Chapter 1' | Book content title |
-| contents[0].html | '&lt;article&gt;Hello World&lt;/article&gt;' | Book content HTML |
+| contents[0].html | '<article>Hello World</article>' | Book content HTML |
 
 ## Epubbd Methods
 
