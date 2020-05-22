@@ -6,7 +6,7 @@ Promise-based Node.js EPUB 3.0 generator
 const epubbd = require('epubbd');
 const options = {
     title: 'My Book',
-    styleUrlOrPathOrPath: './style.css',
+    styleUrlOrPath: './style.css',
     coverUrlOrPath: 'https://i.picsum.photos/id/127/200/300.jpg',
     contents: [
         title: 'Chapter 1',
