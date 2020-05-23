@@ -6,8 +6,8 @@ Promise-based Node.js EPUB 3.0 generator
 const epubbd = require('epubbd');
 const options = {
     title: 'My Book',
-    styleUrlOrPath: './style.css',
-    coverUrlOrPath: 'https://i.picsum.photos/id/127/200/300.jpg',
+    css: './style.css',
+    cover: 'https://i.picsum.photos/id/127/200/300.jpg',
     contents: [
         title: 'Chapter 1',
         html: '<div><p>HTML that goes inside the BODY tag</p></div>'
@@ -31,8 +31,8 @@ const options = {
 | title | 'My Book' | The title of your .epub |
 | author | 'Jane Smith' | The author of your .epub |
 | publisher | 'Squirrel Papers' | The publisher of your .epub |
-| styleUrlOrPath | './main.css' | A url or the local path of your .css file. The `<body>` tag has `epubbd-content` css class you can target. |
-| coverUrlOrPath | './my-book-image.jpg' | A url or the local path of your image cover file |
+| css | './main.css' | A url or the local path of your .css file. The `<body>` tag has `epubbd-content` css class you can target. |
+| cover | './my-book-image.jpg' | A url or the local path of your image cover file |
 | contents | [{ title, html }] | An array of your book's content |
 | contents[0].title | 'Chapter 1' | Book content title |
 | contents[0].html | 'Hello World' | Book content HTML |
