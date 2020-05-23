@@ -22,18 +22,23 @@ const options = {
   await epubbd.toFileAsync(options, 'my-book.epub');
 })();
 ```
+  
+
 
 ## Epubbd Options
 | Property | Example | Description |
-|-------------------|----------------------------------|--------------------------------------------------|
+|-------------------|-----------------------|------------------------------------------------------------------------------------------------------------|
 | title | 'My Book' | The title of your .epub |
 | author | 'Jane Smith' | The author of your .epub |
 | publisher | 'Squirrel Papers' | The publisher of your .epub |
-| styleUrlOrPath | './main.css' | A url or the local path of your .css file |
+| styleUrlOrPath | './main.css' | A url or the local path of your .css file. The `<body>` tag has `epubbd-content` css class you can target. |
 | coverUrlOrPath | './my-book-image.jpg' | A url or the local path of your image cover file |
 | contents | [{ title, html }] | An array of your book's content |
 | contents[0].title | 'Chapter 1' | Book content title |
-| contents[0].html | '<article>Hello World</article>' | Book content HTML |
+| contents[0].html | 'Hello World' | Book content HTML |
+
+  
+
 
 ## Epubbd Methods
 
