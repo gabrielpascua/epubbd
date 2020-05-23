@@ -8,11 +8,11 @@ const options = {
     title: 'My Book',
     css: './style.css',
     cover: 'https://i.picsum.photos/id/127/200/300.jpg',
-    contents: [
+    contents: [{
         title: 'Chapter 1',
         subTitle: 'The very first chapter',
         html: '<div><p>HTML that goes inside the BODY tag</p></div>'
-    ]
+    }]
 }
 
 (async() => {
