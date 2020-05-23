@@ -23,8 +23,9 @@ const options = {
   await epubbd.toFileAsync(options, 'my-book.epub');
 })();
 ```
-  
 
+<br />
+<br />
 
 ## Epubbd Options
 | Property | Example | Description |
@@ -38,9 +39,9 @@ const options = {
 | contents[0].title | `'Chapter 1'` | Page content title |
 | contents[0].subTitle | `'The Very First'` | Page content sub-title |
 | contents[0].html | `'Hello World'` | Page content HTML |
-
   
-
+<br />
+<br />
 
 ## Epubbd Methods
 
