@@ -2,7 +2,7 @@
 Promise-based Node.js EPUB 3.0 generator
 
 
-```
+```js
 const epubbd = require('epubbd');
 const options = {
     title: 'My Book',
