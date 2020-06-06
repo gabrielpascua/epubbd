@@ -85,5 +85,5 @@ Example: `'The Very First Chapter'`
 
 
 #### contents[0].html
-The HTML of your content page.  The markup is sanitized before adding to the page to ensure XHTML compatibility.  
+The HTML of your content page.  The markup is sanitized before adding to the page to ensure XHTML compatibility.  Embedded images with local paths must set the "src" attribute relative to where the currently running script is.
 Example: `'Hello World <br> Line break tag will be converted to <br/>'`
